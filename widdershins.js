@@ -106,7 +106,7 @@ var options = {};
 async function doit(s) {
     var api = {};
     try {
-        api = yaml.parse(s);
+        api = yaml.parse(s, { merge: true });
     }
     catch (ex) {
         console.error('Failed to parse YAML/JSON, falling back to API Blueprint');
@@ -177,7 +177,7 @@ if (argv.respec) {
     options.sotd = argv.sotd;
     let r = fs.readFileSync(path.resolve(argv.respec),'utf8');
     try {
-        options.respec = yaml.parse(r);
+        options.respec = yaml.parse(r, { merge: true });
     }
     catch (ex) {
         console.error(ex.message);
