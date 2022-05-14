@@ -1,18 +1,13 @@
 {
-  "name": "widdershins",
-  "version": "4.0.1",
-  "description": "OpenAPI/ Swagger / AsyncAPI / Semoasa definition to Slate / Shins compatible markdown",
+  "name": "@discue/openapi3-to-markdown",
+  "version": "0.1.0",
+  "description": "OpenAPI definition to markdown",
   "main": "lib/index.js",
   "bin": {
-    "widdershins": "./widdershins.js",
-    "testRunner": "./testRunner.js"
-  },
-  "directories": {
-    "doc": "docs"
+    "widdershins": "./widdershins.js"
   },
   "scripts": {
     "lint": "npx eslint *.js lib/*.js test/*.js",
-    "shins": "node widdershins --discovery -o ../shins/source/index.html.md defs/petstore.json",
     "test": "nyc mocha"
   },
   "repository": {
@@ -23,15 +18,16 @@
     "swagger",
     "openapi",
     "openapi3",
-    "asyncapi",
-    "slate",
-    "shins",
     "api",
     "docs",
     "documentation",
-    "semoasa"
+    "markdown",
+    "converter"
   ],
   "author": "Mike Ralphson",
+  "contributors": [
+    "Stefan Pfaffel"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mermade/widdershins/issues"
