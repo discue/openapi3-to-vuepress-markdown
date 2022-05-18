@@ -1,18 +1,8 @@
-# widdershins
-OpenAPI / Swagger / AsyncAPI / Semoasa definition to [Slate](https://github.com/slatedocs/slate) /
-[ReSlate](https://github.com/mermade/reslate) compatible markdown
 
-![Build](https://img.shields.io/travis/Mermade/widdershins/master.svg) [![Tested on APIs.guru](https://api.apis.guru/badges/tested_on.svg)](https://APIs.guru) [![Tested on Mermade OpenAPIs](https://img.shields.io/badge/Additional%20Specs-419-brightgreen.svg)](https://github.com/mermade/OpenAPI_specifications)
-[![Known Vulnerabilities](https://snyk.io/test/npm/widdershins/badge.svg)](https://snyk.io/test/npm/widdershins)
+<p align="center"><a href="https://www.discue.io/" target="_blank" rel="noopener noreferrer"><img width="128" src="https://www.discue.io/icons-fire-no-badge-square/web/icon-192.png" alt="Vue logo"></a></p>
 
-<img src="http://mermade.github.io/widdershins/logo.png" width="247px" height="250px" />
-
-### Widdershins *adverb*:
-* In a direction contrary to the sun's course;
-* anticlockwise;
-* helping you produce static documentation from your OpenAPI 3.0 / Swagger 2.0 / AsyncAPI 1.x / Semoasa 0.1.0 definition
-
-![Widdershins screenshot](https://mermade.github.io/widdershins/screenshot.png)
+# openapi3-to-vuepress-markdown
+An OpenApi3 to Markdown converter targeting [VuePress v2](ttps://github.com/vuepress/vuepress-next) compatible Markdown. This is heavily based on [Widdershins](https://github.com/Mermade/widdershins) with the unrelevant code being stripped and [VuePress v2](https://github.com/vuepress/vuepress-next) Components like [Badge](https://v2.vuepress.vuejs.org/reference/default-theme/components.html#badge) being added.
 
 ### News
 
@@ -30,7 +20,6 @@ OpenAPI / Swagger / AsyncAPI / Semoasa definition to [Slate](https://github.com/
 ### To install
 
 * Clone the git repository, and `npm i` to install dependencies, or
-* `npm install -g widdershins` to install globally
 
 ### Getting started
 
