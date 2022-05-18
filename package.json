@@ -1,5 +1,5 @@
 {
-  "name": "@discue/openapi3-to-markdown",
+  "name": "@discue/openapi3-to-vuepress-markdown",
   "version": "0.1.0",
   "description": "OpenAPI definition to markdown",
   "main": "lib/index.js",
