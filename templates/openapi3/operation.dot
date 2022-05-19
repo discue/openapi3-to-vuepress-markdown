@@ -23,7 +23,6 @@
 </p>
 
 {{? data.operation.description}}{{= data.operation.description }}{{?}}
-{{? data.operation.summary && !data.options.tocSummary}}*{{= data.operation.summary }}*{{?}}
 
 {{ data.security = data.operation.security ? data.operation.security : data.api.security; }}
 {{? data.security && data.security.length }}
